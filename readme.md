@@ -1,5 +1,5 @@
 
-> Terminal string styling done right
+> Terminal string styling done right.
 
 
 ## License
