@@ -24,7 +24,7 @@
 		"url-parse": "1.4.1"
 	},
 	"devDependencies": {
-		"ava": "^0.25.0",
+		"ava": "^5.1.0",
 		"coveralls": "^3.0.2",
 		"execa": "^1.0.0",
 		"flow-bin": "^0.81.0",
