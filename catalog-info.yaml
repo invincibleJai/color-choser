@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-janus
+  labels: 
+    component: backstage-hello-world
+    donotshow: test
+  annotations:
+#   github.com/project-slug: invinciblejai/nationalparks-py
+#   backstage.io/kubernetes-namespace: jai-test
+    backstage.io/kubernetes-id: backstage
+#   backstage.io/kubernetes-label-selector: 'app-bs=my-app'
+#   janus-idp.io/tekton-enabled : 'true'
+    quay.io/repository-slug: janus-idp/backstage-showcase
+    janus-idp.io/tekton : backstage-janus
+    azure-container-registry/repository-name: 'samples/nodetest1'
+    nexus-repository-manager/docker.image-name: 'test-nexus/nodetest1'
+    jfrog-artifactory/image-name: 'test-nexus/nodetest1'
+    lighthouse.com/website-url: https://backstage.io/
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: unknown
+  owner: temp-team-b
